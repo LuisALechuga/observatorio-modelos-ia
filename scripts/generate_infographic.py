@@ -4,7 +4,6 @@ import html
 import json
 from pathlib import Path
 import re
-import textwrap
 
 ROOT = Path(__file__).resolve().parents[1]
 COMPANIES = [
@@ -48,40 +47,8 @@ def text(x, y, value, size=22, color="#17243a", weight="400"):
 
 
 def build_svg(groups, generated_at):
-    svg = ['<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1480" viewBox="0 0 1600 1480" role="img" aria-labelledby="title desc">',
-           '<title id="title">Árbol de modelos de IA: últimos tres registrados por empresa</title>',
-           '<desc id="desc">Selección provisional de Models.dev. Orden por fecha de lanzamiento declarada; los modelos sin fecha van al final. No hay validación independiente.</desc>',
-           '<rect width="1600" height="1480" fill="#f5f7fb"/>',
-           '<g font-family="Arial, sans-serif">',
-           '<rect x="24" y="20" width="1552" height="100" rx="22" fill="#10233f"/>',
-           text(50, 65, "ÁRBOL DE MODELOS DE IA", 34, "white", "700"),
-           text(50, 100, "Los tres más recientes registrados por empresa · Models.dev", 23, "#d5e3f6"),
-           text(32, 158, f"Generado el {generated_at} · Selección provisional, sin validación independiente", 22),
-           '<path d="M800 1340 V220" stroke="#1673bf" stroke-width="20" fill="none"/>']
-    for i, (provider, company, models) in enumerate(groups):
-        left = i % 2 == 0
-        row = i // 2
-        x, y = (32 if left else 890), 190 + row * 295
-        edge = x + 678 if left else x
-        svg += [f'<path d="M800 {y + 120} Q800 {y + 55} {edge} {y + 55}" stroke="#1673bf" stroke-width="8" fill="none"/>',
-                f'<rect x="{x}" y="{y}" width="678" height="275" rx="18" fill="white" stroke="#c5d5e9" stroke-width="2"/>',
-                text(x + 20, y + 37, company, 29, weight="700")]
-        for j, model in enumerate(models):
-            top = y + 54 + j * 70
-            svg += [f'<rect x="{x + 12}" y="{top}" width="654" height="64" rx="8" fill="#eaf3fc"/>',
-                    text(x + 24, top + 29, str(j + 1), 23, "#2563eb", "700")]
-            lines = textwrap.wrap(str(model.get("name") or model["id"]), width=34)[:2]
-            for k, line in enumerate(lines):
-                svg.append(text(x + 56, top + 24 + k * 25, line, 22, weight="700"))
-            svg += [text(x + 492, top + 25, declared_date(model), 16),
-                    text(x + 492, top + 48, "No validado", 16, "#785014")]
-        if len(models) < 3:
-            svg.append(text(x + 20, y + 263, f"{len(models)} modelos disponibles; no se inventan registros.", 17, "#52647c"))
-    svg += [text(800, 1300, "IA", 36, "#1673bf", "700"),
-            '<rect x="32" y="1400" width="1536" height="60" rx="12" fill="#fff5df"/>',
-            text(50, 1437, "Fechas declaradas por la fuente. No acreditan lanzamiento ni disponibilidad. Consulta el catálogo.", 22, "#603b0a"),
-            '</g></svg>']
-    return "\n".join(svg)
+    from infographic_art import render_tree
+    return render_tree(groups, generated_at, declared_date)
 
 
 def main():
@@ -99,7 +66,7 @@ def main():
     markup = f'''<!-- INFOGRAPHIC:START -->
 <figure>
 <a href="assets/arbol-modelos.svg" aria-label="Abrir el árbol de modelos a tamaño completo">
-<img src="assets/arbol-modelos.svg" width="1600" height="1480" fetchpriority="high" decoding="async" alt="Árbol de los últimos tres modelos registrados por empresa en Models.dev, ordenados por fecha declarada. Selección provisional sin validación independiente." aria-describedby="infografia-caption">
+<img src="assets/arbol-modelos.svg" width="1800" height="1200" fetchpriority="high" decoding="async" alt="Árbol de los últimos tres modelos registrados por empresa en Models.dev, ordenados por fecha declarada. Selección provisional sin validación independiente." aria-describedby="infografia-caption">
 </a>
 <figcaption id="infografia-caption">Generado el {generated_at}. Selección provisional: se incluyen modelos aunque no estén validados. Las fechas son las declaradas por la fuente, no fechas verificadas. Pulsa la imagen para ampliarla o consulta el <a href="#catalogo">catálogo</a>.</figcaption>
 </figure>

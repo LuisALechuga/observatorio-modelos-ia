@@ -1,140 +1,281 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1480" viewBox="0 0 1600 1480" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1200" viewBox="0 0 1800 1200" role="img" aria-labelledby="title desc">
 <title id="title">Árbol de modelos de IA: últimos tres registrados por empresa</title>
-<desc id="desc">Selección provisional de Models.dev. Orden por fecha de lanzamiento declarada; los modelos sin fecha van al final. No hay validación independiente.</desc>
-<rect width="1600" height="1480" fill="#f5f7fb"/>
+<desc id="desc">Árbol azul con hojas verdes y siete ramas por empresa. Fechas declaradas por Models.dev. Selección provisional sin validación independiente.</desc>
+<defs>
+<linearGradient id="navy" x2="0" y2="1"><stop stop-color="#213f72"/><stop offset="1" stop-color="#092851"/></linearGradient>
+<linearGradient id="wood"><stop stop-color="#064eab"/><stop offset=".45" stop-color="#0c9fff"/><stop offset="1" stop-color="#0052b0"/></linearGradient>
+<linearGradient id="leaf" x2="1" y2="1"><stop stop-color="#bce92b"/><stop offset=".5" stop-color="#72c913"/><stop offset="1" stop-color="#2e9f17"/></linearGradient>
+<linearGradient id="pale" x2="0" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#edf4ff"/></linearGradient>
+<filter id="shadow" x="-20%" y="-20%" width="150%" height="160%"><feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#14375b" flood-opacity=".18"/></filter>
+<pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#e7edf5" stroke-width=".7"/></pattern>
+<symbol id="calendar" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M3 10H21M7 2V7M17 2V7M7 14H9M12 14H14M7 17H9M12 17H14" stroke="currentColor" stroke-width="1.7"/></symbol>
+</defs><rect width="1800" height="1200" fill="#fff"/><rect width="1800" height="1200" fill="url(#grid)"/>
 <g font-family="Arial, sans-serif">
-<rect x="24" y="20" width="1552" height="100" rx="22" fill="#10233f"/>
-<text x="50" y="65" font-size="34" fill="white" font-weight="700">ÁRBOL DE MODELOS DE IA</text>
-<text x="50" y="100" font-size="23" fill="#d5e3f6" font-weight="400">Los tres más recientes registrados por empresa · Models.dev</text>
-<text x="32" y="158" font-size="22" fill="#17243a" font-weight="400">Generado el 04/11/2026 20:51 UTC · Selección provisional, sin validación independiente</text>
-<path d="M800 1340 V220" stroke="#1673bf" stroke-width="20" fill="none"/>
-<path d="M800 310 Q800 245 710 245" stroke="#1673bf" stroke-width="8" fill="none"/>
-<rect x="32" y="190" width="678" height="275" rx="18" fill="white" stroke="#c5d5e9" stroke-width="2"/>
-<text x="52" y="227" font-size="29" fill="#17243a" font-weight="700">OpenAI</text>
-<rect x="44" y="244" width="654" height="64" rx="8" fill="#eaf3fc"/>
-<text x="56" y="273" font-size="23" fill="#2563eb" font-weight="700">1</text>
-<text x="88" y="268" font-size="22" fill="#17243a" font-weight="700">GPT-6.1 Terra</text>
-<text x="524" y="269" font-size="16" fill="#17243a" font-weight="400">26/10/2026</text>
-<text x="524" y="292" font-size="16" fill="#785014" font-weight="400">No validado</text>
-<rect x="44" y="314" width="654" height="64" rx="8" fill="#eaf3fc"/>
-<text x="56" y="343" font-size="23" fill="#2563eb" font-weight="700">2</text>
-<text x="88" y="338" font-size="22" fill="#17243a" font-weight="700">GPT-6.1 Sol</text>
-<text x="524" y="339" font-size="16" fill="#17243a" font-weight="400">29/09/2026</text>
-<text x="524" y="362" font-size="16" fill="#785014" font-weight="400">No validado</text>
-<rect x="44" y="384" width="654" height="64" rx="8" fill="#eaf3fc"/>
-<text x="56" y="413" font-size="23" fill="#2563eb" font-weight="700">3</text>
-<text x="88" y="408" font-size="22" fill="#17243a" font-weight="700">GPT-6 Luna</text>
-<text x="524" y="409" font-size="16" fill="#17243a" font-weight="400">22/09/2026</text>
-<text x="524" y="432" font-size="16" fill="#785014" font-weight="400">No validado</text>
-<path d="M800 310 Q800 245 890 245" stroke="#1673bf" stroke-width="8" fill="none"/>
-<rect x="890" y="190" width="678" height="275" rx="18" fill="white" stroke="#c5d5e9" stroke-width="2"/>
-<text x="910" y="227" font-size="29" fill="#17243a" font-weight="700">Anthropic</text>
-<rect x="902" y="244" width="654" height="64" rx="8" fill="#eaf3fc"/>
-<text x="914" y="273" font-size="23" fill="#2563eb" font-weight="700">1</text>
-<text x="946" y="268" font-size="22" fill="#17243a" font-weight="700">Claude Haiku 5.5</text>
-<text x="1382" y="269" font-size="16" fill="#17243a" font-weight="400">07/10/2026</text>
-<text x="1382" y="292" font-size="16" fill="#785014" font-weight="400">No validado</text>
-<rect x="902" y="314" width="654" height="64" rx="8" fill="#eaf3fc"/>
-<text x="914" y="343" font-size="23" fill="#2563eb" font-weight="700">2</text>
-<text x="946" y="338" font-size="22" fill="#17243a" font-weight="700">Claude Sonnet 5.5</text>
-<text x="1382" y="339" font-size="16" fill="#17243a" font-weight="400">28/09/2026</text>
-<text x="1382" y="362" font-size="16" fill="#785014" font-weight="400">No validado</text>
-<rect x="902" y="384" width="654" height="64" rx="8" fill="#eaf3fc"/>
-<text x="914" y="413" font-size="23" fill="#2563eb" font-weight="700">3</text>
-<text x="946" y="408" font-size="22" fill="#17243a" font-weight="700">Claude Opus 5.5</text>
-<text x="1382" y="409" font-size="16" fill="#17243a" font-weight="400">22/09/2026</text>
-<text x="1382" y="432" font-size="16" fill="#785014" font-weight="400">No validado</text>
-<path d="M800 605 Q800 540 710 540" stroke="#1673bf" stroke-width="8" fill="none"/>
-<rect x="32" y="485" width="678" height="275" rx="18" fill="white" stroke="#c5d5e9" stroke-width="2"/>
-<text x="52" y="522" font-size="29" fill="#17243a" font-weight="700">Google</text>
-<rect x="44" y="539" width="654" height="64" rx="8" fill="#eaf3fc"/>
-<text x="56" y="568" font-size="23" fill="#2563eb" font-weight="700">1</text>
-<text x="88" y="563" font-size="22" fill="#17243a" font-weight="700">Gemini 4 Argon</text>
-<text x="524" y="564" font-size="16" fill="#17243a" font-weight="400">13/10/2026</text>
-<text x="524" y="587" font-size="16" fill="#785014" font-weight="400">No validado</text>
-<rect x="44" y="609" width="654" height="64" rx="8" fill="#eaf3fc"/>
-<text x="56" y="638" font-size="23" fill="#2563eb" font-weight="700">2</text>
-<text x="88" y="633" font-size="22" fill="#17243a" font-weight="700">Gemini 3.8 Flash</text>
-<text x="524" y="634" font-size="16" fill="#17243a" font-weight="400">02/09/2026</text>
-<text x="524" y="657" font-size="16" fill="#785014" font-weight="400">No validado</text>
-<rect x="44" y="679" width="654" height="64" rx="8" fill="#eaf3fc"/>
-<text x="56" y="708" font-size="23" fill="#2563eb" font-weight="700">3</text>
-<text x="88" y="703" font-size="22" fill="#17243a" font-weight="700">Gemini 3.7 Flash</text>
-<text x="524" y="704" font-size="16" fill="#17243a" font-weight="400">13/08/2026</text>
-<text x="524" y="727" font-size="16" fill="#785014" font-weight="400">No validado</text>
-<path d="M800 605 Q800 540 890 540" stroke="#1673bf" stroke-width="8" fill="none"/>
-<rect x="890" y="485" width="678" height="275" rx="18" fill="white" stroke="#c5d5e9" stroke-width="2"/>
-<text x="910" y="522" font-size="29" fill="#17243a" font-weight="700">xAI</text>
-<rect x="902" y="539" width="654" height="64" rx="8" fill="#eaf3fc"/>
-<text x="914" y="568" font-size="23" fill="#2563eb" font-weight="700">1</text>
-<text x="946" y="563" font-size="22" fill="#17243a" font-weight="700">Grok Imagine Video 1.5 Lite</text>
-<text x="1382" y="564" font-size="16" fill="#17243a" font-weight="400">01/10/2026</text>
-<text x="1382" y="587" font-size="16" fill="#785014" font-weight="400">No validado</text>
-<rect x="902" y="609" width="654" height="64" rx="8" fill="#eaf3fc"/>
-<text x="914" y="638" font-size="23" fill="#2563eb" font-weight="700">2</text>
-<text x="946" y="633" font-size="22" fill="#17243a" font-weight="700">Grok 4.7</text>
-<text x="1382" y="634" font-size="16" fill="#17243a" font-weight="400">21/09/2026</text>
-<text x="1382" y="657" font-size="16" fill="#785014" font-weight="400">No validado</text>
-<rect x="902" y="679" width="654" height="64" rx="8" fill="#eaf3fc"/>
-<text x="914" y="708" font-size="23" fill="#2563eb" font-weight="700">3</text>
-<text x="946" y="703" font-size="22" fill="#17243a" font-weight="700">Grok 4.6</text>
-<text x="1382" y="704" font-size="16" fill="#17243a" font-weight="400">12/08/2026</text>
-<text x="1382" y="727" font-size="16" fill="#785014" font-weight="400">No validado</text>
-<path d="M800 900 Q800 835 710 835" stroke="#1673bf" stroke-width="8" fill="none"/>
-<rect x="32" y="780" width="678" height="275" rx="18" fill="white" stroke="#c5d5e9" stroke-width="2"/>
-<text x="52" y="817" font-size="29" fill="#17243a" font-weight="700">Meta</text>
-<rect x="44" y="834" width="654" height="64" rx="8" fill="#eaf3fc"/>
-<text x="56" y="863" font-size="23" fill="#2563eb" font-weight="700">1</text>
-<text x="88" y="858" font-size="22" fill="#17243a" font-weight="700">Muse Wonder</text>
-<text x="524" y="859" font-size="16" fill="#17243a" font-weight="400">12/10/2026</text>
-<text x="524" y="882" font-size="16" fill="#785014" font-weight="400">No validado</text>
-<rect x="44" y="904" width="654" height="64" rx="8" fill="#eaf3fc"/>
-<text x="56" y="933" font-size="23" fill="#2563eb" font-weight="700">2</text>
-<text x="88" y="928" font-size="22" fill="#17243a" font-weight="700">Muse Spark 1.3</text>
-<text x="524" y="929" font-size="16" fill="#17243a" font-weight="400">02/09/2026</text>
-<text x="524" y="952" font-size="16" fill="#785014" font-weight="400">No validado</text>
-<rect x="44" y="974" width="654" height="64" rx="8" fill="#eaf3fc"/>
-<text x="56" y="1003" font-size="23" fill="#2563eb" font-weight="700">3</text>
-<text x="88" y="998" font-size="22" fill="#17243a" font-weight="700">Muse Spark 1.3 Contributor</text>
-<text x="524" y="999" font-size="16" fill="#17243a" font-weight="400">02/09/2026</text>
-<text x="524" y="1022" font-size="16" fill="#785014" font-weight="400">No validado</text>
-<path d="M800 900 Q800 835 890 835" stroke="#1673bf" stroke-width="8" fill="none"/>
-<rect x="890" y="780" width="678" height="275" rx="18" fill="white" stroke="#c5d5e9" stroke-width="2"/>
-<text x="910" y="817" font-size="29" fill="#17243a" font-weight="700">DeepSeek</text>
-<rect x="902" y="834" width="654" height="64" rx="8" fill="#eaf3fc"/>
-<text x="914" y="863" font-size="23" fill="#2563eb" font-weight="700">1</text>
-<text x="946" y="858" font-size="22" fill="#17243a" font-weight="700">DeepSeek V4.1 Flash 1017</text>
-<text x="1382" y="859" font-size="16" fill="#17243a" font-weight="400">17/10/2026</text>
-<text x="1382" y="882" font-size="16" fill="#785014" font-weight="400">No validado</text>
-<rect x="902" y="904" width="654" height="64" rx="8" fill="#eaf3fc"/>
-<text x="914" y="933" font-size="23" fill="#2563eb" font-weight="700">2</text>
-<text x="946" y="928" font-size="22" fill="#17243a" font-weight="700">DeepSeek V4 Flash</text>
-<text x="1382" y="929" font-size="16" fill="#17243a" font-weight="400">17/10/2026</text>
-<text x="1382" y="952" font-size="16" fill="#785014" font-weight="400">No validado</text>
-<rect x="902" y="974" width="654" height="64" rx="8" fill="#eaf3fc"/>
-<text x="914" y="1003" font-size="23" fill="#2563eb" font-weight="700">3</text>
-<text x="946" y="998" font-size="22" fill="#17243a" font-weight="700">DeepSeek V4 Flash Vision Exp</text>
-<text x="1382" y="999" font-size="16" fill="#17243a" font-weight="400">17/10/2026</text>
-<text x="1382" y="1022" font-size="16" fill="#785014" font-weight="400">No validado</text>
-<path d="M800 1195 Q800 1130 710 1130" stroke="#1673bf" stroke-width="8" fill="none"/>
-<rect x="32" y="1075" width="678" height="275" rx="18" fill="white" stroke="#c5d5e9" stroke-width="2"/>
-<text x="52" y="1112" font-size="29" fill="#17243a" font-weight="700">Moonshot AI</text>
-<rect x="44" y="1129" width="654" height="64" rx="8" fill="#eaf3fc"/>
-<text x="56" y="1158" font-size="23" fill="#2563eb" font-weight="700">1</text>
-<text x="88" y="1153" font-size="22" fill="#17243a" font-weight="700">Kimi K3.1 Pro</text>
-<text x="524" y="1154" font-size="16" fill="#17243a" font-weight="400">23/10/2026</text>
-<text x="524" y="1177" font-size="16" fill="#785014" font-weight="400">No validado</text>
-<rect x="44" y="1199" width="654" height="64" rx="8" fill="#eaf3fc"/>
-<text x="56" y="1228" font-size="23" fill="#2563eb" font-weight="700">2</text>
-<text x="88" y="1223" font-size="22" fill="#17243a" font-weight="700">Kimi K3.1 Pro Highspeed</text>
-<text x="524" y="1224" font-size="16" fill="#17243a" font-weight="400">23/10/2026</text>
-<text x="524" y="1247" font-size="16" fill="#785014" font-weight="400">No validado</text>
-<rect x="44" y="1269" width="654" height="64" rx="8" fill="#eaf3fc"/>
-<text x="56" y="1298" font-size="23" fill="#2563eb" font-weight="700">3</text>
-<text x="88" y="1293" font-size="22" fill="#17243a" font-weight="700">Kimi K3</text>
-<text x="524" y="1294" font-size="16" fill="#17243a" font-weight="400">16/07/2026</text>
-<text x="524" y="1317" font-size="16" fill="#785014" font-weight="400">No validado</text>
-<text x="800" y="1300" font-size="36" fill="#1673bf" font-weight="700">IA</text>
-<rect x="32" y="1400" width="1536" height="60" rx="12" fill="#fff5df"/>
-<text x="50" y="1437" font-size="22" fill="#603b0a" font-weight="400">Fechas declaradas por la fuente. No acreditan lanzamiento ni disponibilidad. Consulta el catálogo.</text>
+<rect x="24" y="18" width="1368" height="64" rx="24" fill="url(#navy)" filter="url(#shadow)"/>
+<text x="51" y="62" font-size="37" fill="white" font-weight="800" >ÁRBOL DE MODELOS DE IA · ÚLTIMOS 3 POR EMPRESA</text>
+<rect x="1410" y="18" width="366" height="90" rx="24" fill="url(#pale)" stroke="#cad9ef"/>
+<use href="#calendar" x="1430" y="37" width="40" height="40"/>
+<text x="1480" y="44" font-size="18" fill="#10233f" font-weight="700" >Generado el</text>
+<text x="1480" y="74" font-size="18" fill="#10233f" font-weight="700" >04/11/2026 21:12 UTC</text>
+<rect x="177" y="94" width="1210" height="35" rx="17" fill="#e7f3ff"/>
+<text x="199" y="119" font-size="21" fill="#10233f" font-weight="700" >Fuente: Models.dev · Fechas declaradas · Selección provisional, sin validación independiente</text>
+<path d="M854 1034 C861 920 877 820 877 707 C878 593 876 509 900 418 C901 528 916 600 916 709 C915 836 934 945 944 1034Z" fill="url(#wood)" filter="url(#shadow)"/>
+<path d="M900 569 C900 459 810 449 730 449" fill="none" stroke="url(#wood)" stroke-width="25" stroke-linecap="round"/>
+<path d="M730 449 C680 449 680 290.0 640 290.0" fill="none" stroke="#0982e7" stroke-width="5"/>
+<circle cx="640" cy="290.0" r="5" fill="#0878d8"/>
+<rect x="688" y="407" width="84" height="84" rx="23" fill="white" stroke="#e5edf8" filter="url(#shadow)"/>
+<text x="730" y="466" font-size="43" fill="#15253b" font-weight="800" text-anchor="middle">O</text>
+<path d="M900 525 C920 440 980 430 1060 430" fill="none" stroke="url(#wood)" stroke-width="25" stroke-linecap="round"/>
+<path d="M1060 430 C1120 430 1120 255.0 1160 255.0" fill="none" stroke="#0982e7" stroke-width="5"/>
+<circle cx="1160" cy="255.0" r="5" fill="#0878d8"/>
+<rect x="1018" y="388" width="84" height="84" rx="23" fill="white" stroke="#e5edf8" filter="url(#shadow)"/>
+<text x="1060" y="447" font-size="43" fill="#15253b" font-weight="800" text-anchor="middle">AI</text>
+<path d="M900 705 C920 620 980 610 1060 610" fill="none" stroke="url(#wood)" stroke-width="25" stroke-linecap="round"/>
+<path d="M1060 610 C1120 610 1120 483.0 1160 483.0" fill="none" stroke="#0982e7" stroke-width="5"/>
+<circle cx="1160" cy="483.0" r="5" fill="#0878d8"/>
+<rect x="1018" y="568" width="84" height="84" rx="23" fill="white" stroke="#e5edf8" filter="url(#shadow)"/>
+<text x="1060" y="627" font-size="43" fill="#0878d8" font-weight="800" text-anchor="middle">G</text>
+<path d="M900 772 C900 662 810 652 730 652" fill="none" stroke="url(#wood)" stroke-width="25" stroke-linecap="round"/>
+<path d="M730 652 C680 652 680 583.0 640 583.0" fill="none" stroke="#0982e7" stroke-width="5"/>
+<circle cx="640" cy="583.0" r="5" fill="#0878d8"/>
+<rect x="688" y="610" width="84" height="84" rx="23" fill="white" stroke="#e5edf8" filter="url(#shadow)"/>
+<text x="730" y="669" font-size="29" fill="#15253b" font-weight="800" text-anchor="middle">xAI</text>
+<path d="M900 991 C900 881 810 871 730 871" fill="none" stroke="url(#wood)" stroke-width="25" stroke-linecap="round"/>
+<path d="M730 871 C680 871 680 876.0 640 876.0" fill="none" stroke="#0982e7" stroke-width="5"/>
+<circle cx="640" cy="876.0" r="5" fill="#0878d8"/>
+<rect x="688" y="829" width="84" height="84" rx="23" fill="white" stroke="#e5edf8" filter="url(#shadow)"/>
+<text x="730" y="888" font-size="43" fill="#0878d8" font-weight="800" text-anchor="middle">∞</text>
+<path d="M900 879 C920 794 980 784 1060 784" fill="none" stroke="url(#wood)" stroke-width="25" stroke-linecap="round"/>
+<path d="M1060 784 C1120 784 1120 711.0 1160 711.0" fill="none" stroke="#0982e7" stroke-width="5"/>
+<circle cx="1160" cy="711.0" r="5" fill="#0878d8"/>
+<rect x="1018" y="742" width="84" height="84" rx="23" fill="white" stroke="#e5edf8" filter="url(#shadow)"/>
+<text x="1060" y="801" font-size="43" fill="#0878d8" font-weight="800" text-anchor="middle">D</text>
+<path d="M900 1053 C920 968 980 958 1060 958" fill="none" stroke="url(#wood)" stroke-width="25" stroke-linecap="round"/>
+<path d="M1060 958 C1120 958 1120 939.0 1160 939.0" fill="none" stroke="#0982e7" stroke-width="5"/>
+<circle cx="1160" cy="939.0" r="5" fill="#0878d8"/>
+<rect x="1018" y="916" width="84" height="84" rx="23" fill="white" stroke="#e5edf8" filter="url(#shadow)"/>
+<text x="1060" y="975" font-size="43" fill="#15253b" font-weight="800" text-anchor="middle">K</text>
+<g transform="translate(891 457) rotate(-10) scale(0.8)"><path d="M0 0 C-28 -8 -34 -37 -26 -60 C0 -52 20 -23 0 0Z" fill="url(#leaf)"/><path d="M0 0 L-22 -48" stroke="white" stroke-opacity=".6" stroke-width="1.5"/></g>
+<g transform="translate(922 485) rotate(80) scale(0.7)"><path d="M0 0 C-28 -8 -34 -37 -26 -60 C0 -52 20 -23 0 0Z" fill="url(#leaf)"/><path d="M0 0 L-22 -48" stroke="white" stroke-opacity=".6" stroke-width="1.5"/></g>
+<g transform="translate(871 550) rotate(-65) scale(0.85)"><path d="M0 0 C-28 -8 -34 -37 -26 -60 C0 -52 20 -23 0 0Z" fill="url(#leaf)"/><path d="M0 0 L-22 -48" stroke="white" stroke-opacity=".6" stroke-width="1.5"/></g>
+<g transform="translate(940 590) rotate(90) scale(0.8)"><path d="M0 0 C-28 -8 -34 -37 -26 -60 C0 -52 20 -23 0 0Z" fill="url(#leaf)"/><path d="M0 0 L-22 -48" stroke="white" stroke-opacity=".6" stroke-width="1.5"/></g>
+<g transform="translate(872 677) rotate(-60) scale(0.85)"><path d="M0 0 C-28 -8 -34 -37 -26 -60 C0 -52 20 -23 0 0Z" fill="url(#leaf)"/><path d="M0 0 L-22 -48" stroke="white" stroke-opacity=".6" stroke-width="1.5"/></g>
+<g transform="translate(946 737) rotate(85) scale(0.8)"><path d="M0 0 C-28 -8 -34 -37 -26 -60 C0 -52 20 -23 0 0Z" fill="url(#leaf)"/><path d="M0 0 L-22 -48" stroke="white" stroke-opacity=".6" stroke-width="1.5"/></g>
+<g transform="translate(865 803) rotate(-65) scale(0.75)"><path d="M0 0 C-28 -8 -34 -37 -26 -60 C0 -52 20 -23 0 0Z" fill="url(#leaf)"/><path d="M0 0 L-22 -48" stroke="white" stroke-opacity=".6" stroke-width="1.5"/></g>
+<g transform="translate(952 878) rotate(80) scale(0.8)"><path d="M0 0 C-28 -8 -34 -37 -26 -60 C0 -52 20 -23 0 0Z" fill="url(#leaf)"/><path d="M0 0 L-22 -48" stroke="white" stroke-opacity=".6" stroke-width="1.5"/></g>
+<g transform="translate(881 924) rotate(-70) scale(0.7)"><path d="M0 0 C-28 -8 -34 -37 -26 -60 C0 -52 20 -23 0 0Z" fill="url(#leaf)"/><path d="M0 0 L-22 -48" stroke="white" stroke-opacity=".6" stroke-width="1.5"/></g>
+<g transform="translate(838 603) rotate(-80) scale(0.7)"><path d="M0 0 C-28 -8 -34 -37 -26 -60 C0 -52 20 -23 0 0Z" fill="url(#leaf)"/><path d="M0 0 L-22 -48" stroke="white" stroke-opacity=".6" stroke-width="1.5"/></g>
+<g transform="translate(983 690) rotate(85) scale(0.65)"><path d="M0 0 C-28 -8 -34 -37 -26 -60 C0 -52 20 -23 0 0Z" fill="url(#leaf)"/><path d="M0 0 L-22 -48" stroke="white" stroke-opacity=".6" stroke-width="1.5"/></g>
+<g transform="translate(822 847) rotate(-70) scale(0.6)"><path d="M0 0 C-28 -8 -34 -37 -26 -60 C0 -52 20 -23 0 0Z" fill="url(#leaf)"/><path d="M0 0 L-22 -48" stroke="white" stroke-opacity=".6" stroke-width="1.5"/></g>
+<rect x="672" y="154" width="456" height="232" rx="23" fill="white" stroke="#c3d4eb" filter="url(#shadow)"/>
+<text x="696" y="185" font-size="22" fill="#10233f" font-weight="800" >LEYENDA · Capacidad orientativa</text>
+<rect x="684" y="198" width="432" height="40" rx="14" fill="#e9f5ff"/>
+<g transform="translate(716 230) rotate(40) scale(0.45)"><path d="M0 0 C-28 -8 -34 -37 -26 -60 C0 -52 20 -23 0 0Z" fill="#159bea"/><path d="M0 0 L-22 -48" stroke="white" stroke-opacity=".6" stroke-width="1.5"/></g>
+<text x="744" y="225" font-size="19" fill="#10233f" font-weight="700" >Razonamiento y tareas complejas</text>
+<rect x="684" y="242" width="432" height="40" rx="14" fill="#edf9e8"/>
+<g transform="translate(716 274) rotate(40) scale(0.45)"><path d="M0 0 C-28 -8 -34 -37 -26 -60 C0 -52 20 -23 0 0Z" fill="#57b535"/><path d="M0 0 L-22 -48" stroke="white" stroke-opacity=".6" stroke-width="1.5"/></g>
+<text x="744" y="269" font-size="19" fill="#10233f" font-weight="700" >Uso general y herramientas</text>
+<rect x="684" y="286" width="432" height="40" rx="14" fill="#fff7df"/>
+<g transform="translate(716 318) rotate(40) scale(0.45)"><path d="M0 0 C-28 -8 -34 -37 -26 -60 C0 -52 20 -23 0 0Z" fill="#f3ac12"/><path d="M0 0 L-22 -48" stroke="white" stroke-opacity=".6" stroke-width="1.5"/></g>
+<text x="744" y="313" font-size="19" fill="#10233f" font-weight="700" >Variantes ligeras / rápidas</text>
+<rect x="684" y="330" width="432" height="40" rx="14" fill="#ffedf5"/>
+<g transform="translate(716 362) rotate(40) scale(0.45)"><path d="M0 0 C-28 -8 -34 -37 -26 -60 C0 -52 20 -23 0 0Z" fill="#e85494"/><path d="M0 0 L-22 -48" stroke="white" stroke-opacity=".6" stroke-width="1.5"/></g>
+<text x="744" y="357" font-size="19" fill="#10233f" font-weight="700" >Salida de imagen, vídeo o audio</text>
+<rect x="20" y="155" width="620" height="270" rx="27" fill="url(#pale)" stroke="#9fb9dc" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="42" y="195" font-size="29" fill="#077adb" font-weight="800" >O</text>
+<text x="108" y="195" font-size="33" fill="#10233f" font-weight="800" >OpenAI</text>
+<rect x="484" y="167" width="136" height="33" rx="16" fill="#e8f3ff" stroke="#b3cff0"/>
+<text x="552" y="190" font-size="18" fill="#10233f" font-weight="700" text-anchor="middle">GPT</text>
+<rect x="30" y="212" width="600" height="61" rx="14" fill="#e9f5ff"/>
+<rect x="40" y="221" width="32" height="32" rx="9" fill="#159bea"/>
+<text x="56" y="245" font-size="23" fill="white" font-weight="800" text-anchor="middle">1</text>
+<g transform="translate(99 250) rotate(40) scale(0.46)"><path d="M0 0 C-28 -8 -34 -37 -26 -60 C0 -52 20 -23 0 0Z" fill="#159bea"/><path d="M0 0 L-22 -48" stroke="white" stroke-opacity=".6" stroke-width="1.5"/></g>
+<text x="120" y="237" font-size="21" fill="#10233f" font-weight="800" >GPT-6.1 Terra</text>
+<text x="120" y="259" font-size="15" fill="#10233f" font-weight="400" >Razonamiento · herramientas</text>
+<use href="#calendar" x="486" y="223" width="19" height="19"/>
+<text x="514" y="239" font-size="16" fill="#10233f" font-weight="700" >26/10/2026</text>
+<rect x="30" y="277" width="600" height="61" rx="14" fill="#e9f5ff"/>
+<rect x="40" y="286" width="32" height="32" rx="9" fill="#159bea"/>
+<text x="56" y="310" font-size="23" fill="white" font-weight="800" text-anchor="middle">2</text>
+<g transform="translate(99 315) rotate(40) scale(0.46)"><path d="M0 0 C-28 -8 -34 -37 -26 -60 C0 -52 20 -23 0 0Z" fill="#159bea"/><path d="M0 0 L-22 -48" stroke="white" stroke-opacity=".6" stroke-width="1.5"/></g>
+<text x="120" y="302" font-size="21" fill="#10233f" font-weight="800" >GPT-6.1 Sol</text>
+<text x="120" y="324" font-size="15" fill="#10233f" font-weight="400" >Razonamiento · herramientas</text>
+<use href="#calendar" x="486" y="288" width="19" height="19"/>
+<text x="514" y="304" font-size="16" fill="#10233f" font-weight="700" >29/09/2026</text>
+<rect x="30" y="342" width="600" height="61" rx="14" fill="#e9f5ff"/>
+<rect x="40" y="351" width="32" height="32" rx="9" fill="#159bea"/>
+<text x="56" y="375" font-size="23" fill="white" font-weight="800" text-anchor="middle">3</text>
+<g transform="translate(99 380) rotate(40) scale(0.46)"><path d="M0 0 C-28 -8 -34 -37 -26 -60 C0 -52 20 -23 0 0Z" fill="#159bea"/><path d="M0 0 L-22 -48" stroke="white" stroke-opacity=".6" stroke-width="1.5"/></g>
+<text x="120" y="367" font-size="21" fill="#10233f" font-weight="800" >GPT-6 Luna</text>
+<text x="120" y="389" font-size="15" fill="#10233f" font-weight="400" >Razonamiento · herramientas</text>
+<use href="#calendar" x="486" y="353" width="19" height="19"/>
+<text x="514" y="369" font-size="16" fill="#10233f" font-weight="700" >22/09/2026</text>
+<rect x="1160" y="150" width="620" height="210" rx="27" fill="url(#pale)" stroke="#9fb9dc" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="1182" y="190" font-size="29" fill="#077adb" font-weight="800" >AI</text>
+<text x="1248" y="190" font-size="33" fill="#10233f" font-weight="800" >Anthropic</text>
+<rect x="1624" y="162" width="136" height="33" rx="16" fill="#e8f3ff" stroke="#b3cff0"/>
+<text x="1692" y="185" font-size="18" fill="#10233f" font-weight="700" text-anchor="middle">Claude</text>
+<rect x="1170" y="207" width="600" height="42" rx="14" fill="#e9f5ff"/>
+<rect x="1180" y="216" width="32" height="32" rx="9" fill="#159bea"/>
+<text x="1196" y="240" font-size="23" fill="white" font-weight="800" text-anchor="middle">1</text>
+<g transform="translate(1239 245) rotate(40) scale(0.46)"><path d="M0 0 C-28 -8 -34 -37 -26 -60 C0 -52 20 -23 0 0Z" fill="#159bea"/><path d="M0 0 L-22 -48" stroke="white" stroke-opacity=".6" stroke-width="1.5"/></g>
+<text x="1260" y="232" font-size="21" fill="#10233f" font-weight="800" >Claude Haiku 5.5</text>
+<use href="#calendar" x="1626" y="218" width="19" height="19"/>
+<text x="1654" y="234" font-size="16" fill="#10233f" font-weight="700" >07/10/2026</text>
+<rect x="1170" y="253" width="600" height="42" rx="14" fill="#e9f5ff"/>
+<rect x="1180" y="262" width="32" height="32" rx="9" fill="#159bea"/>
+<text x="1196" y="286" font-size="23" fill="white" font-weight="800" text-anchor="middle">2</text>
+<g transform="translate(1239 291) rotate(40) scale(0.46)"><path d="M0 0 C-28 -8 -34 -37 -26 -60 C0 -52 20 -23 0 0Z" fill="#159bea"/><path d="M0 0 L-22 -48" stroke="white" stroke-opacity=".6" stroke-width="1.5"/></g>
+<text x="1260" y="278" font-size="21" fill="#10233f" font-weight="800" >Claude Sonnet 5.5</text>
+<use href="#calendar" x="1626" y="264" width="19" height="19"/>
+<text x="1654" y="280" font-size="16" fill="#10233f" font-weight="700" >28/09/2026</text>
+<rect x="1170" y="299" width="600" height="42" rx="14" fill="#e9f5ff"/>
+<rect x="1180" y="308" width="32" height="32" rx="9" fill="#159bea"/>
+<text x="1196" y="332" font-size="23" fill="white" font-weight="800" text-anchor="middle">3</text>
+<g transform="translate(1239 337) rotate(40) scale(0.46)"><path d="M0 0 C-28 -8 -34 -37 -26 -60 C0 -52 20 -23 0 0Z" fill="#159bea"/><path d="M0 0 L-22 -48" stroke="white" stroke-opacity=".6" stroke-width="1.5"/></g>
+<text x="1260" y="324" font-size="21" fill="#10233f" font-weight="800" >Claude Opus 5.5</text>
+<use href="#calendar" x="1626" y="310" width="19" height="19"/>
+<text x="1654" y="326" font-size="16" fill="#10233f" font-weight="700" >22/09/2026</text>
+<rect x="1160" y="378" width="620" height="210" rx="27" fill="url(#pale)" stroke="#9fb9dc" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="1182" y="418" font-size="29" fill="#077adb" font-weight="800" >G</text>
+<text x="1248" y="418" font-size="33" fill="#10233f" font-weight="800" >Google</text>
+<rect x="1624" y="390" width="136" height="33" rx="16" fill="#e8f3ff" stroke="#b3cff0"/>
+<text x="1692" y="413" font-size="18" fill="#10233f" font-weight="700" text-anchor="middle">Gemini</text>
+<rect x="1170" y="435" width="600" height="42" rx="14" fill="#e9f5ff"/>
+<rect x="1180" y="444" width="32" height="32" rx="9" fill="#159bea"/>
+<text x="1196" y="468" font-size="23" fill="white" font-weight="800" text-anchor="middle">1</text>
+<g transform="translate(1239 473) rotate(40) scale(0.46)"><path d="M0 0 C-28 -8 -34 -37 -26 -60 C0 -52 20 -23 0 0Z" fill="#159bea"/><path d="M0 0 L-22 -48" stroke="white" stroke-opacity=".6" stroke-width="1.5"/></g>
+<text x="1260" y="460" font-size="21" fill="#10233f" font-weight="800" >Gemini 4 Argon</text>
+<use href="#calendar" x="1626" y="446" width="19" height="19"/>
+<text x="1654" y="462" font-size="16" fill="#10233f" font-weight="700" >13/10/2026</text>
+<rect x="1170" y="481" width="600" height="42" rx="14" fill="#e9f5ff"/>
+<rect x="1180" y="490" width="32" height="32" rx="9" fill="#159bea"/>
+<text x="1196" y="514" font-size="23" fill="white" font-weight="800" text-anchor="middle">2</text>
+<g transform="translate(1239 519) rotate(40) scale(0.46)"><path d="M0 0 C-28 -8 -34 -37 -26 -60 C0 -52 20 -23 0 0Z" fill="#159bea"/><path d="M0 0 L-22 -48" stroke="white" stroke-opacity=".6" stroke-width="1.5"/></g>
+<text x="1260" y="506" font-size="21" fill="#10233f" font-weight="800" >Gemini 3.8 Flash</text>
+<use href="#calendar" x="1626" y="492" width="19" height="19"/>
+<text x="1654" y="508" font-size="16" fill="#10233f" font-weight="700" >02/09/2026</text>
+<rect x="1170" y="527" width="600" height="42" rx="14" fill="#e9f5ff"/>
+<rect x="1180" y="536" width="32" height="32" rx="9" fill="#159bea"/>
+<text x="1196" y="560" font-size="23" fill="white" font-weight="800" text-anchor="middle">3</text>
+<g transform="translate(1239 565) rotate(40) scale(0.46)"><path d="M0 0 C-28 -8 -34 -37 -26 -60 C0 -52 20 -23 0 0Z" fill="#159bea"/><path d="M0 0 L-22 -48" stroke="white" stroke-opacity=".6" stroke-width="1.5"/></g>
+<text x="1260" y="552" font-size="21" fill="#10233f" font-weight="800" >Gemini 3.7 Flash</text>
+<use href="#calendar" x="1626" y="538" width="19" height="19"/>
+<text x="1654" y="554" font-size="16" fill="#10233f" font-weight="700" >13/08/2026</text>
+<rect x="20" y="448" width="620" height="270" rx="27" fill="url(#pale)" stroke="#9fb9dc" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="42" y="488" font-size="29" fill="#077adb" font-weight="800" >xAI</text>
+<text x="108" y="488" font-size="33" fill="#10233f" font-weight="800" >xAI</text>
+<rect x="484" y="460" width="136" height="33" rx="16" fill="#e8f3ff" stroke="#b3cff0"/>
+<text x="552" y="483" font-size="18" fill="#10233f" font-weight="700" text-anchor="middle">Grok</text>
+<rect x="30" y="505" width="600" height="61" rx="14" fill="#ffedf5"/>
+<rect x="40" y="514" width="32" height="32" rx="9" fill="#e85494"/>
+<text x="56" y="538" font-size="23" fill="white" font-weight="800" text-anchor="middle">1</text>
+<g transform="translate(99 543) rotate(40) scale(0.46)"><path d="M0 0 C-28 -8 -34 -37 -26 -60 C0 -52 20 -23 0 0Z" fill="#e85494"/><path d="M0 0 L-22 -48" stroke="white" stroke-opacity=".6" stroke-width="1.5"/></g>
+<text x="120" y="530" font-size="21" fill="#10233f" font-weight="800" >Grok Imagine Video 1.5 Lite</text>
+<text x="120" y="552" font-size="15" fill="#10233f" font-weight="400" >Multimodal · vídeo</text>
+<use href="#calendar" x="486" y="516" width="19" height="19"/>
+<text x="514" y="532" font-size="16" fill="#10233f" font-weight="700" >01/10/2026</text>
+<rect x="30" y="570" width="600" height="61" rx="14" fill="#e9f5ff"/>
+<rect x="40" y="579" width="32" height="32" rx="9" fill="#159bea"/>
+<text x="56" y="603" font-size="23" fill="white" font-weight="800" text-anchor="middle">2</text>
+<g transform="translate(99 608) rotate(40) scale(0.46)"><path d="M0 0 C-28 -8 -34 -37 -26 -60 C0 -52 20 -23 0 0Z" fill="#159bea"/><path d="M0 0 L-22 -48" stroke="white" stroke-opacity=".6" stroke-width="1.5"/></g>
+<text x="120" y="595" font-size="21" fill="#10233f" font-weight="800" >Grok 4.7</text>
+<text x="120" y="617" font-size="15" fill="#10233f" font-weight="400" >Razonamiento · herramientas</text>
+<use href="#calendar" x="486" y="581" width="19" height="19"/>
+<text x="514" y="597" font-size="16" fill="#10233f" font-weight="700" >21/09/2026</text>
+<rect x="30" y="635" width="600" height="61" rx="14" fill="#e9f5ff"/>
+<rect x="40" y="644" width="32" height="32" rx="9" fill="#159bea"/>
+<text x="56" y="668" font-size="23" fill="white" font-weight="800" text-anchor="middle">3</text>
+<g transform="translate(99 673) rotate(40) scale(0.46)"><path d="M0 0 C-28 -8 -34 -37 -26 -60 C0 -52 20 -23 0 0Z" fill="#159bea"/><path d="M0 0 L-22 -48" stroke="white" stroke-opacity=".6" stroke-width="1.5"/></g>
+<text x="120" y="660" font-size="21" fill="#10233f" font-weight="800" >Grok 4.6</text>
+<text x="120" y="682" font-size="15" fill="#10233f" font-weight="400" >Razonamiento · herramientas</text>
+<use href="#calendar" x="486" y="646" width="19" height="19"/>
+<text x="514" y="662" font-size="16" fill="#10233f" font-weight="700" >12/08/2026</text>
+<rect x="20" y="741" width="620" height="270" rx="27" fill="url(#pale)" stroke="#9fb9dc" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="42" y="781" font-size="29" fill="#077adb" font-weight="800" >∞</text>
+<text x="108" y="781" font-size="33" fill="#10233f" font-weight="800" >Meta</text>
+<rect x="484" y="753" width="136" height="33" rx="16" fill="#e8f3ff" stroke="#b3cff0"/>
+<text x="552" y="776" font-size="18" fill="#10233f" font-weight="700" text-anchor="middle">Muse / Llama</text>
+<rect x="30" y="798" width="600" height="61" rx="14" fill="#e9f5ff"/>
+<rect x="40" y="807" width="32" height="32" rx="9" fill="#159bea"/>
+<text x="56" y="831" font-size="23" fill="white" font-weight="800" text-anchor="middle">1</text>
+<g transform="translate(99 836) rotate(40) scale(0.46)"><path d="M0 0 C-28 -8 -34 -37 -26 -60 C0 -52 20 -23 0 0Z" fill="#159bea"/><path d="M0 0 L-22 -48" stroke="white" stroke-opacity=".6" stroke-width="1.5"/></g>
+<text x="120" y="823" font-size="21" fill="#10233f" font-weight="800" >Muse Wonder</text>
+<text x="120" y="845" font-size="15" fill="#10233f" font-weight="400" >Razonamiento · herramientas</text>
+<use href="#calendar" x="486" y="809" width="19" height="19"/>
+<text x="514" y="825" font-size="16" fill="#10233f" font-weight="700" >12/10/2026</text>
+<rect x="30" y="863" width="600" height="61" rx="14" fill="#e9f5ff"/>
+<rect x="40" y="872" width="32" height="32" rx="9" fill="#159bea"/>
+<text x="56" y="896" font-size="23" fill="white" font-weight="800" text-anchor="middle">2</text>
+<g transform="translate(99 901) rotate(40) scale(0.46)"><path d="M0 0 C-28 -8 -34 -37 -26 -60 C0 -52 20 -23 0 0Z" fill="#159bea"/><path d="M0 0 L-22 -48" stroke="white" stroke-opacity=".6" stroke-width="1.5"/></g>
+<text x="120" y="888" font-size="21" fill="#10233f" font-weight="800" >Muse Spark 1.3</text>
+<text x="120" y="910" font-size="15" fill="#10233f" font-weight="400" >Razonamiento · herramientas</text>
+<use href="#calendar" x="486" y="874" width="19" height="19"/>
+<text x="514" y="890" font-size="16" fill="#10233f" font-weight="700" >02/09/2026</text>
+<rect x="30" y="928" width="600" height="61" rx="14" fill="#e9f5ff"/>
+<rect x="40" y="937" width="32" height="32" rx="9" fill="#159bea"/>
+<text x="56" y="961" font-size="23" fill="white" font-weight="800" text-anchor="middle">3</text>
+<g transform="translate(99 966) rotate(40) scale(0.46)"><path d="M0 0 C-28 -8 -34 -37 -26 -60 C0 -52 20 -23 0 0Z" fill="#159bea"/><path d="M0 0 L-22 -48" stroke="white" stroke-opacity=".6" stroke-width="1.5"/></g>
+<text x="120" y="953" font-size="21" fill="#10233f" font-weight="800" >Muse Spark 1.3 Contributor</text>
+<text x="120" y="975" font-size="15" fill="#10233f" font-weight="400" >Razonamiento · herramientas</text>
+<use href="#calendar" x="486" y="939" width="19" height="19"/>
+<text x="514" y="955" font-size="16" fill="#10233f" font-weight="700" >02/09/2026</text>
+<rect x="1160" y="606" width="620" height="210" rx="27" fill="url(#pale)" stroke="#9fb9dc" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="1182" y="646" font-size="29" fill="#077adb" font-weight="800" >D</text>
+<text x="1248" y="646" font-size="33" fill="#10233f" font-weight="800" >DeepSeek</text>
+<rect x="1624" y="618" width="136" height="33" rx="16" fill="#e8f3ff" stroke="#b3cff0"/>
+<text x="1692" y="641" font-size="18" fill="#10233f" font-weight="700" text-anchor="middle">DeepSeek</text>
+<rect x="1170" y="663" width="600" height="42" rx="14" fill="#e9f5ff"/>
+<rect x="1180" y="672" width="32" height="32" rx="9" fill="#159bea"/>
+<text x="1196" y="696" font-size="23" fill="white" font-weight="800" text-anchor="middle">1</text>
+<g transform="translate(1239 701) rotate(40) scale(0.46)"><path d="M0 0 C-28 -8 -34 -37 -26 -60 C0 -52 20 -23 0 0Z" fill="#159bea"/><path d="M0 0 L-22 -48" stroke="white" stroke-opacity=".6" stroke-width="1.5"/></g>
+<text x="1260" y="688" font-size="21" fill="#10233f" font-weight="800" >DeepSeek V4.1 Flash 1017</text>
+<use href="#calendar" x="1626" y="674" width="19" height="19"/>
+<text x="1654" y="690" font-size="16" fill="#10233f" font-weight="700" >17/10/2026</text>
+<rect x="1170" y="709" width="600" height="42" rx="14" fill="#e9f5ff"/>
+<rect x="1180" y="718" width="32" height="32" rx="9" fill="#159bea"/>
+<text x="1196" y="742" font-size="23" fill="white" font-weight="800" text-anchor="middle">2</text>
+<g transform="translate(1239 747) rotate(40) scale(0.46)"><path d="M0 0 C-28 -8 -34 -37 -26 -60 C0 -52 20 -23 0 0Z" fill="#159bea"/><path d="M0 0 L-22 -48" stroke="white" stroke-opacity=".6" stroke-width="1.5"/></g>
+<text x="1260" y="734" font-size="21" fill="#10233f" font-weight="800" >DeepSeek V4 Flash</text>
+<use href="#calendar" x="1626" y="720" width="19" height="19"/>
+<text x="1654" y="736" font-size="16" fill="#10233f" font-weight="700" >17/10/2026</text>
+<rect x="1170" y="755" width="600" height="42" rx="14" fill="#e9f5ff"/>
+<rect x="1180" y="764" width="32" height="32" rx="9" fill="#159bea"/>
+<text x="1196" y="788" font-size="23" fill="white" font-weight="800" text-anchor="middle">3</text>
+<g transform="translate(1239 793) rotate(40) scale(0.46)"><path d="M0 0 C-28 -8 -34 -37 -26 -60 C0 -52 20 -23 0 0Z" fill="#159bea"/><path d="M0 0 L-22 -48" stroke="white" stroke-opacity=".6" stroke-width="1.5"/></g>
+<text x="1260" y="780" font-size="21" fill="#10233f" font-weight="800" >DeepSeek V4 Flash Vision Exp</text>
+<use href="#calendar" x="1626" y="766" width="19" height="19"/>
+<text x="1654" y="782" font-size="16" fill="#10233f" font-weight="700" >17/10/2026</text>
+<rect x="1160" y="834" width="620" height="210" rx="27" fill="url(#pale)" stroke="#9fb9dc" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="1182" y="874" font-size="29" fill="#077adb" font-weight="800" >K</text>
+<text x="1248" y="874" font-size="33" fill="#10233f" font-weight="800" >Moonshot AI</text>
+<rect x="1624" y="846" width="136" height="33" rx="16" fill="#e8f3ff" stroke="#b3cff0"/>
+<text x="1692" y="869" font-size="18" fill="#10233f" font-weight="700" text-anchor="middle">Kimi</text>
+<rect x="1170" y="891" width="600" height="42" rx="14" fill="#e9f5ff"/>
+<rect x="1180" y="900" width="32" height="32" rx="9" fill="#159bea"/>
+<text x="1196" y="924" font-size="23" fill="white" font-weight="800" text-anchor="middle">1</text>
+<g transform="translate(1239 929) rotate(40) scale(0.46)"><path d="M0 0 C-28 -8 -34 -37 -26 -60 C0 -52 20 -23 0 0Z" fill="#159bea"/><path d="M0 0 L-22 -48" stroke="white" stroke-opacity=".6" stroke-width="1.5"/></g>
+<text x="1260" y="916" font-size="21" fill="#10233f" font-weight="800" >Kimi K3.1 Pro</text>
+<use href="#calendar" x="1626" y="902" width="19" height="19"/>
+<text x="1654" y="918" font-size="16" fill="#10233f" font-weight="700" >23/10/2026</text>
+<rect x="1170" y="937" width="600" height="42" rx="14" fill="#e9f5ff"/>
+<rect x="1180" y="946" width="32" height="32" rx="9" fill="#159bea"/>
+<text x="1196" y="970" font-size="23" fill="white" font-weight="800" text-anchor="middle">2</text>
+<g transform="translate(1239 975) rotate(40) scale(0.46)"><path d="M0 0 C-28 -8 -34 -37 -26 -60 C0 -52 20 -23 0 0Z" fill="#159bea"/><path d="M0 0 L-22 -48" stroke="white" stroke-opacity=".6" stroke-width="1.5"/></g>
+<text x="1260" y="962" font-size="21" fill="#10233f" font-weight="800" >Kimi K3.1 Pro Highspeed</text>
+<use href="#calendar" x="1626" y="948" width="19" height="19"/>
+<text x="1654" y="964" font-size="16" fill="#10233f" font-weight="700" >23/10/2026</text>
+<rect x="1170" y="983" width="600" height="42" rx="14" fill="#e9f5ff"/>
+<rect x="1180" y="992" width="32" height="32" rx="9" fill="#159bea"/>
+<text x="1196" y="1016" font-size="23" fill="white" font-weight="800" text-anchor="middle">3</text>
+<g transform="translate(1239 1021) rotate(40) scale(0.46)"><path d="M0 0 C-28 -8 -34 -37 -26 -60 C0 -52 20 -23 0 0Z" fill="#159bea"/><path d="M0 0 L-22 -48" stroke="white" stroke-opacity=".6" stroke-width="1.5"/></g>
+<text x="1260" y="1008" font-size="21" fill="#10233f" font-weight="800" >Kimi K3</text>
+<use href="#calendar" x="1626" y="994" width="19" height="19"/>
+<text x="1654" y="1010" font-size="16" fill="#10233f" font-weight="700" >16/07/2026</text>
+<rect x="850" y="1001" width="100" height="83" rx="22" fill="url(#navy)" stroke="#119cff" stroke-width="5" filter="url(#shadow)"/>
+<text x="900" y="1060" font-size="48" fill="white" font-weight="800" text-anchor="middle">IA</text>
+<rect x="670" y="1094" width="460" height="42" rx="21" fill="url(#navy)"/>
+<text x="900" y="1123" font-size="20" fill="white" font-weight="800" text-anchor="middle">MODELOS DE IA · SELECCIÓN PROVISIONAL</text>
+<rect x="24" y="1148" width="1752" height="40" rx="20" fill="#edf4ff" stroke="#cfdef0"/>
+<text x="48" y="1175" font-size="21" fill="#10233f" font-weight="700" >7 empresas  ·  21 modelos  |  Fechas declaradas; no acreditan lanzamiento ni disponibilidad. Consulta el catálogo.</text>
 </g></svg>

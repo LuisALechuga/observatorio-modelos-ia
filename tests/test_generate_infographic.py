@@ -43,7 +43,7 @@ class SelectionTests(unittest.TestCase):
         root = ET.fromstring(svg)
         text = "".join(root.itertext())
         self.assertIn("A & <B>", text)
-        self.assertIn("No validado", text)
+        self.assertIn("sin validación independiente", text)
         self.assertIn("04/11/2026", text)
 
 
