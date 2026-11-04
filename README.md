@@ -2,6 +2,22 @@
 
 Aplicación web estática alimentada por la API pública de Models.dev. Incluye buscador, filtros, comparación de hasta 4 modelos e histórico de sincronizaciones.
 
+## Portada ilustrativa
+
+La portada presenta la infografía «Árbol de modelos de IA 2026» antes del catálogo con aviso visible de que sus modelos y fechas no están validados, incluida la fecha de verificación dibujada en la imagen. Conserva los controles, el comparador y el histórico; el catálogo es la fuente consultable. La imagen es una maqueta, no una captura verificada de Models.dev.
+
+Para sustituir la ilustración, con Python y Pillow instalados:
+
+```bash
+python scripts/prepare_infographic.py "/ruta/a/Árbol de modelos de IA 2026.png"
+```
+
+El script crea variantes WebP y JPEG de hasta 640, 1280 y 1920 píxeles, sin ampliar el original, y coloca la imagen en la portada. Incluye texto alternativo, dimensiones para reservar espacio, selección responsive, prioridad de carga y enlace a la imagen ampliada. La conversión elimina metadatos del archivo original. Los textos y fechas dibujados en la imagen no se consideran datos del catálogo.
+
+Antes de publicar, comprobar la legibilidad de la imagen en ordenador y móvil. La incorporación no modifica `scripts/sync.py`, los JSON ni el flujo de actualización y despliegue.
+
+Verificación: navegador Edge a 375, 768 y 1440 píxeles sin desbordamiento horizontal de página; búsqueda, filtros combinados, paginación, histórico y comparación (incluido límite de cuatro y conservación al filtrar), sin errores JavaScript. La ilustración se adapta a la pantalla y enlaza a su versión de 1536 × 1024 píxeles para ampliar los textos en móvil. El original pesa 1,99 MB; la variante WebP mayor pesa 287 kB y la de 640 píxeles, 83 kB.
+
 ## Despliegue sin instalar nada en tu PC
 
 1. Crea un repositorio **público** nuevo en GitHub llamado `observatorio-modelos-ia` y selecciona la rama `main`.
