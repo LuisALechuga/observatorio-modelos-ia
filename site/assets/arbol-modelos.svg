@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1480" viewBox="0 0 1600 1480" role="img" aria-labelledby="title desc">
+<title id="title">Árbol de modelos de IA: últimos tres registrados por empresa</title>
+<desc id="desc">Selección provisional de Models.dev. Orden por fecha de lanzamiento declarada; los modelos sin fecha van al final. No hay validación independiente.</desc>
+<rect width="1600" height="1480" fill="#f5f7fb"/>
+<g font-family="Arial, sans-serif">
+<rect x="24" y="20" width="1552" height="100" rx="22" fill="#10233f"/>
+<text x="50" y="65" font-size="34" fill="white" font-weight="700">ÁRBOL DE MODELOS DE IA</text>
+<text x="50" y="100" font-size="23" fill="#d5e3f6" font-weight="400">Los tres más recientes registrados por empresa · Models.dev</text>
+<text x="32" y="158" font-size="22" fill="#17243a" font-weight="400">Generado el 04/11/2026 20:47 UTC · Selección provisional, sin validación independiente</text>
+<path d="M800 1340 V220" stroke="#1673bf" stroke-width="20" fill="none"/>
+<path d="M800 310 Q800 245 710 245" stroke="#1673bf" stroke-width="8" fill="none"/>
+<rect x="32" y="190" width="678" height="275" rx="18" fill="white" stroke="#c5d5e9" stroke-width="2"/>
+<text x="52" y="227" font-size="29" fill="#17243a" font-weight="700">OpenAI</text>
+<rect x="44" y="244" width="654" height="64" rx="8" fill="#eaf3fc"/>
+<text x="56" y="273" font-size="23" fill="#2563eb" font-weight="700">1</text>
+<text x="88" y="268" font-size="22" fill="#17243a" font-weight="700">GPT-6.1 Terra</text>
+<text x="524" y="269" font-size="16" fill="#17243a" font-weight="400">26/10/2026</text>
+<text x="524" y="292" font-size="16" fill="#785014" font-weight="400">No validado</text>
+<rect x="44" y="314" width="654" height="64" rx="8" fill="#eaf3fc"/>
+<text x="56" y="343" font-size="23" fill="#2563eb" font-weight="700">2</text>
+<text x="88" y="338" font-size="22" fill="#17243a" font-weight="700">GPT-6.1 Sol</text>
+<text x="524" y="339" font-size="16" fill="#17243a" font-weight="400">29/09/2026</text>
+<text x="524" y="362" font-size="16" fill="#785014" font-weight="400">No validado</text>
+<rect x="44" y="384" width="654" height="64" rx="8" fill="#eaf3fc"/>
+<text x="56" y="413" font-size="23" fill="#2563eb" font-weight="700">3</text>
+<text x="88" y="408" font-size="22" fill="#17243a" font-weight="700">GPT-6 Luna</text>
+<text x="524" y="409" font-size="16" fill="#17243a" font-weight="400">22/09/2026</text>
+<text x="524" y="432" font-size="16" fill="#785014" font-weight="400">No validado</text>
+<path d="M800 310 Q800 245 890 245" stroke="#1673bf" stroke-width="8" fill="none"/>
+<rect x="890" y="190" width="678" height="275" rx="18" fill="white" stroke="#c5d5e9" stroke-width="2"/>
+<text x="910" y="227" font-size="29" fill="#17243a" font-weight="700">Anthropic</text>
+<rect x="902" y="244" width="654" height="64" rx="8" fill="#eaf3fc"/>
+<text x="914" y="273" font-size="23" fill="#2563eb" font-weight="700">1</text>
+<text x="946" y="268" font-size="22" fill="#17243a" font-weight="700">Claude Haiku 5.5</text>
+<text x="1382" y="269" font-size="16" fill="#17243a" font-weight="400">07/10/2026</text>
+<text x="1382" y="292" font-size="16" fill="#785014" font-weight="400">No validado</text>
+<rect x="902" y="314" width="654" height="64" rx="8" fill="#eaf3fc"/>
+<text x="914" y="343" font-size="23" fill="#2563eb" font-weight="700">2</text>
+<text x="946" y="338" font-size="22" fill="#17243a" font-weight="700">Claude Sonnet 5.5</text>
+<text x="1382" y="339" font-size="16" fill="#17243a" font-weight="400">28/09/2026</text>
+<text x="1382" y="362" font-size="16" fill="#785014" font-weight="400">No validado</text>
+<rect x="902" y="384" width="654" height="64" rx="8" fill="#eaf3fc"/>
+<text x="914" y="413" font-size="23" fill="#2563eb" font-weight="700">3</text>
+<text x="946" y="408" font-size="22" fill="#17243a" font-weight="700">Claude Opus 5.5</text>
+<text x="1382" y="409" font-size="16" fill="#17243a" font-weight="400">22/09/2026</text>
+<text x="1382" y="432" font-size="16" fill="#785014" font-weight="400">No validado</text>
+<path d="M800 605 Q800 540 710 540" stroke="#1673bf" stroke-width="8" fill="none"/>
+<rect x="32" y="485" width="678" height="275" rx="18" fill="white" stroke="#c5d5e9" stroke-width="2"/>
+<text x="52" y="522" font-size="29" fill="#17243a" font-weight="700">Google</text>
+<rect x="44" y="539" width="654" height="64" rx="8" fill="#eaf3fc"/>
+<text x="56" y="568" font-size="23" fill="#2563eb" font-weight="700">1</text>
+<text x="88" y="563" font-size="22" fill="#17243a" font-weight="700">Gemini 4 Argon</text>
+<text x="524" y="564" font-size="16" fill="#17243a" font-weight="400">13/10/2026</text>
+<text x="524" y="587" font-size="16" fill="#785014" font-weight="400">No validado</text>
+<rect x="44" y="609" width="654" height="64" rx="8" fill="#eaf3fc"/>
+<text x="56" y="638" font-size="23" fill="#2563eb" font-weight="700">2</text>
+<text x="88" y="633" font-size="22" fill="#17243a" font-weight="700">Gemini 3.8 Flash</text>
+<text x="524" y="634" font-size="16" fill="#17243a" font-weight="400">02/09/2026</text>
+<text x="524" y="657" font-size="16" fill="#785014" font-weight="400">No validado</text>
+<rect x="44" y="679" width="654" height="64" rx="8" fill="#eaf3fc"/>
+<text x="56" y="708" font-size="23" fill="#2563eb" font-weight="700">3</text>
+<text x="88" y="703" font-size="22" fill="#17243a" font-weight="700">Gemini 3.7 Flash</text>
+<text x="524" y="704" font-size="16" fill="#17243a" font-weight="400">13/08/2026</text>
+<text x="524" y="727" font-size="16" fill="#785014" font-weight="400">No validado</text>
+<path d="M800 605 Q800 540 890 540" stroke="#1673bf" stroke-width="8" fill="none"/>
+<rect x="890" y="485" width="678" height="275" rx="18" fill="white" stroke="#c5d5e9" stroke-width="2"/>
+<text x="910" y="522" font-size="29" fill="#17243a" font-weight="700">xAI</text>
+<rect x="902" y="539" width="654" height="64" rx="8" fill="#eaf3fc"/>
+<text x="914" y="568" font-size="23" fill="#2563eb" font-weight="700">1</text>
+<text x="946" y="563" font-size="22" fill="#17243a" font-weight="700">Grok Imagine Video 1.5 Lite</text>
+<text x="1382" y="564" font-size="16" fill="#17243a" font-weight="400">01/10/2026</text>
+<text x="1382" y="587" font-size="16" fill="#785014" font-weight="400">No validado</text>
+<rect x="902" y="609" width="654" height="64" rx="8" fill="#eaf3fc"/>
+<text x="914" y="638" font-size="23" fill="#2563eb" font-weight="700">2</text>
+<text x="946" y="633" font-size="22" fill="#17243a" font-weight="700">Grok 4.7</text>
+<text x="1382" y="634" font-size="16" fill="#17243a" font-weight="400">21/09/2026</text>
+<text x="1382" y="657" font-size="16" fill="#785014" font-weight="400">No validado</text>
+<rect x="902" y="679" width="654" height="64" rx="8" fill="#eaf3fc"/>
+<text x="914" y="708" font-size="23" fill="#2563eb" font-weight="700">3</text>
+<text x="946" y="703" font-size="22" fill="#17243a" font-weight="700">Grok 4.6</text>
+<text x="1382" y="704" font-size="16" fill="#17243a" font-weight="400">12/08/2026</text>
+<text x="1382" y="727" font-size="16" fill="#785014" font-weight="400">No validado</text>
+<path d="M800 900 Q800 835 710 835" stroke="#1673bf" stroke-width="8" fill="none"/>
+<rect x="32" y="780" width="678" height="275" rx="18" fill="white" stroke="#c5d5e9" stroke-width="2"/>
+<text x="52" y="817" font-size="29" fill="#17243a" font-weight="700">Meta</text>
+<rect x="44" y="834" width="654" height="64" rx="8" fill="#eaf3fc"/>
+<text x="56" y="863" font-size="23" fill="#2563eb" font-weight="700">1</text>
+<text x="88" y="858" font-size="22" fill="#17243a" font-weight="700">Muse Wonder</text>
+<text x="524" y="859" font-size="16" fill="#17243a" font-weight="400">12/10/2026</text>
+<text x="524" y="882" font-size="16" fill="#785014" font-weight="400">No validado</text>
+<rect x="44" y="904" width="654" height="64" rx="8" fill="#eaf3fc"/>
+<text x="56" y="933" font-size="23" fill="#2563eb" font-weight="700">2</text>
+<text x="88" y="928" font-size="22" fill="#17243a" font-weight="700">Muse Spark 1.3</text>
+<text x="524" y="929" font-size="16" fill="#17243a" font-weight="400">02/09/2026</text>
+<text x="524" y="952" font-size="16" fill="#785014" font-weight="400">No validado</text>
+<rect x="44" y="974" width="654" height="64" rx="8" fill="#eaf3fc"/>
+<text x="56" y="1003" font-size="23" fill="#2563eb" font-weight="700">3</text>
+<text x="88" y="998" font-size="22" fill="#17243a" font-weight="700">Muse Spark 1.3 Contributor</text>
+<text x="524" y="999" font-size="16" fill="#17243a" font-weight="400">02/09/2026</text>
+<text x="524" y="1022" font-size="16" fill="#785014" font-weight="400">No validado</text>
+<path d="M800 900 Q800 835 890 835" stroke="#1673bf" stroke-width="8" fill="none"/>
+<rect x="890" y="780" width="678" height="275" rx="18" fill="white" stroke="#c5d5e9" stroke-width="2"/>
+<text x="910" y="817" font-size="29" fill="#17243a" font-weight="700">DeepSeek</text>
+<rect x="902" y="834" width="654" height="64" rx="8" fill="#eaf3fc"/>
+<text x="914" y="863" font-size="23" fill="#2563eb" font-weight="700">1</text>
+<text x="946" y="858" font-size="22" fill="#17243a" font-weight="700">DeepSeek V4.1 Flash 1017</text>
+<text x="1382" y="859" font-size="16" fill="#17243a" font-weight="400">17/10/2026</text>
+<text x="1382" y="882" font-size="16" fill="#785014" font-weight="400">No validado</text>
+<rect x="902" y="904" width="654" height="64" rx="8" fill="#eaf3fc"/>
+<text x="914" y="933" font-size="23" fill="#2563eb" font-weight="700">2</text>
+<text x="946" y="928" font-size="22" fill="#17243a" font-weight="700">DeepSeek V4 Flash</text>
+<text x="1382" y="929" font-size="16" fill="#17243a" font-weight="400">17/10/2026</text>
+<text x="1382" y="952" font-size="16" fill="#785014" font-weight="400">No validado</text>
+<rect x="902" y="974" width="654" height="64" rx="8" fill="#eaf3fc"/>
+<text x="914" y="1003" font-size="23" fill="#2563eb" font-weight="700">3</text>
+<text x="946" y="998" font-size="22" fill="#17243a" font-weight="700">DeepSeek V4 Flash Vision Exp</text>
+<text x="1382" y="999" font-size="16" fill="#17243a" font-weight="400">17/10/2026</text>
+<text x="1382" y="1022" font-size="16" fill="#785014" font-weight="400">No validado</text>
+<path d="M800 1195 Q800 1130 710 1130" stroke="#1673bf" stroke-width="8" fill="none"/>
+<rect x="32" y="1075" width="678" height="275" rx="18" fill="white" stroke="#c5d5e9" stroke-width="2"/>
+<text x="52" y="1112" font-size="29" fill="#17243a" font-weight="700">Moonshot AI</text>
+<rect x="44" y="1129" width="654" height="64" rx="8" fill="#eaf3fc"/>
+<text x="56" y="1158" font-size="23" fill="#2563eb" font-weight="700">1</text>
+<text x="88" y="1153" font-size="22" fill="#17243a" font-weight="700">Kimi K3.1 Pro</text>
+<text x="524" y="1154" font-size="16" fill="#17243a" font-weight="400">23/10/2026</text>
+<text x="524" y="1177" font-size="16" fill="#785014" font-weight="400">No validado</text>
+<rect x="44" y="1199" width="654" height="64" rx="8" fill="#eaf3fc"/>
+<text x="56" y="1228" font-size="23" fill="#2563eb" font-weight="700">2</text>
+<text x="88" y="1223" font-size="22" fill="#17243a" font-weight="700">Kimi K3.1 Pro Highspeed</text>
+<text x="524" y="1224" font-size="16" fill="#17243a" font-weight="400">23/10/2026</text>
+<text x="524" y="1247" font-size="16" fill="#785014" font-weight="400">No validado</text>
+<rect x="44" y="1269" width="654" height="64" rx="8" fill="#eaf3fc"/>
+<text x="56" y="1298" font-size="23" fill="#2563eb" font-weight="700">3</text>
+<text x="88" y="1293" font-size="22" fill="#17243a" font-weight="700">Kimi K3</text>
+<text x="524" y="1294" font-size="16" fill="#17243a" font-weight="400">16/07/2026</text>
+<text x="524" y="1317" font-size="16" fill="#785014" font-weight="400">No validado</text>
+<text x="800" y="1300" font-size="36" fill="#1673bf" font-weight="700">IA</text>
+<rect x="32" y="1400" width="1536" height="60" rx="12" fill="#fff5df"/>
+<text x="50" y="1437" font-size="22" fill="#603b0a" font-weight="400">Fechas declaradas por la fuente. No acreditan lanzamiento ni disponibilidad. Consulta el catálogo.</text>
+</g></svg>

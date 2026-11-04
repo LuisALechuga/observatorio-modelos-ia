@@ -4,19 +4,21 @@ Aplicación web estática alimentada por la API pública de Models.dev. Incluye 
 
 ## Portada ilustrativa
 
-La portada presenta la infografía «Árbol de modelos de IA 2026» antes del catálogo con aviso visible de que sus modelos y fechas no están validados, incluida la fecha de verificación dibujada en la imagen. Conserva los controles, el comparador y el histórico; el catálogo es la fuente consultable. La imagen es una maqueta, no una captura verificada de Models.dev.
+La portada genera un árbol SVG con los tres modelos más recientes registrados por cada una de siete empresas: OpenAI, Anthropic, Google, xAI, Meta, DeepSeek y Moonshot AI. Conserva el buscador, filtros, comparador e histórico debajo. El aviso indica que es una selección provisional sin validación independiente y remite al catálogo.
 
-Para sustituir la ilustración, con Python y Pillow instalados:
+Para regenerar el árbol con Python 3.12, sin dependencias adicionales:
 
 ```bash
-python scripts/prepare_infographic.py "/ruta/a/Árbol de modelos de IA 2026.png"
+python scripts/generate_infographic.py
 ```
 
-El script crea variantes WebP y JPEG de hasta 640, 1280 y 1920 píxeles, sin ampliar el original, y coloca la imagen en la portada. Incluye texto alternativo, dimensiones para reservar espacio, selección responsive, prioridad de carga y enlace a la imagen ampliada. La conversión elimina metadatos del archivo original. Los textos y fechas dibujados en la imagen no se consideran datos del catálogo.
+El script usa `site/data/models.json`, filtra por el identificador del proveedor original (evita duplicados de revendedores), ordena por fecha de lanzamiento declarada, de mayor a menor, y toma tres registros aunque no estén validados, sin filtrar por estado. No consulta ni inventa modelos fuera del catálogo. Los registros sin fecha válida quedan al final. Los empates se resuelven por identificador y los alias explícitos «(latest)» del mismo nombre y fecha se cuentan una sola vez. Si hay menos de tres, se muestra lo disponible.
 
-Antes de publicar, comprobar la legibilidad de la imagen en ordenador y móvil. La incorporación no modifica `scripts/sync.py`, los JSON ni el flujo de actualización y despliegue.
+El SVG escalable incluye fecha de generación en UTC, nombres y fechas declaradas, con «No validado» en cada ficha. La página ofrece una lista de texto accesible y un enlace para ampliar la imagen. El flujo de GitHub Actions regenera y guarda el árbol después de sincronizar el catálogo, con la programación existente cada seis horas. No modifica la automatización de generación de imágenes de ChatGPT, que es independiente.
 
-Verificación: navegador Edge a 375, 768 y 1440 píxeles sin desbordamiento horizontal de página; búsqueda, filtros combinados, paginación, histórico y comparación (incluido límite de cuatro y conservación al filtrar), sin errores JavaScript. La ilustración se adapta a la pantalla y enlaza a su versión de 1536 × 1024 píxeles para ampliar los textos en móvil. El original pesa 1,99 MB; la variante WebP mayor pesa 287 kB y la de 640 píxeles, 83 kB.
+Las imágenes originales optimizadas se conservan en `site/assets`; antes estaban por error en `assets`, fuera de la carpeta publicada. `scripts/prepare_infographic.py` sigue disponible para instalar una imagen manual con Pillow, pero la siguiente sincronización restaura el árbol generado desde el catálogo.
+
+Verificación: Edge a 375, 768 y 1440 píxeles sin desbordamiento horizontal; imagen SVG cargada, 21 modelos en texto, búsqueda, filtros combinados, paginación, histórico y comparación (incluido límite de cuatro y conservación al filtrar), sin errores JavaScript. Pruebas de selección y salida SVG: `python -m unittest discover -s tests`.
 
 ## Despliegue sin instalar nada en tu PC
 
@@ -41,6 +43,7 @@ Necesitas Python 3.12 o posterior:
 
 ```bash
 python scripts/sync.py
+python scripts/generate_infographic.py
 cd site
 python -m http.server 8000
 ```
