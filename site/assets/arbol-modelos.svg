@@ -16,7 +16,7 @@
 <rect x="1410" y="18" width="366" height="90" rx="24" fill="url(#pale)" stroke="#cad9ef"/>
 <use href="#calendar" x="1430" y="37" width="40" height="40"/>
 <text x="1480" y="44" font-size="18" fill="#10233f" font-weight="700" >Generado el</text>
-<text x="1480" y="74" font-size="18" fill="#10233f" font-weight="700" >09/11/2026 22:29 UTC</text>
+<text x="1480" y="74" font-size="18" fill="#10233f" font-weight="700" >10/11/2026 07:27 UTC</text>
 <rect x="177" y="94" width="1210" height="35" rx="17" fill="#e7f3ff"/>
 <text x="199" y="119" font-size="21" fill="#10233f" font-weight="700" >Fuente: Models.dev · Fechas declaradas · Selección provisional, sin validación independiente</text>
 <path d="M854 1034 C861 920 877 820 877 707 C878 593 876 509 900 418 C901 528 916 600 916 709 C915 836 934 945 944 1034Z" fill="url(#wood)" filter="url(#shadow)"/>
@@ -200,23 +200,23 @@
 <rect x="40" y="807" width="32" height="32" rx="9" fill="#159bea"/>
 <text x="56" y="831" font-size="23" fill="white" font-weight="800" text-anchor="middle">1</text>
 <g transform="translate(99 836) rotate(40) scale(0.46)"><path d="M0 0 C-28 -8 -34 -37 -26 -60 C0 -52 20 -23 0 0Z" fill="#159bea"/><path d="M0 0 L-22 -48" stroke="white" stroke-opacity=".6" stroke-width="1.5"/></g>
-<text x="120" y="823" font-size="21" fill="#10233f" font-weight="800" >Muse Wonder</text>
+<text x="120" y="823" font-size="21" fill="#10233f" font-weight="800" >Muse Ember</text>
 <text x="120" y="845" font-size="15" fill="#10233f" font-weight="400" >Razonamiento · herramientas</text>
 <use href="#calendar" x="486" y="809" width="19" height="19"/>
-<text x="514" y="825" font-size="16" fill="#10233f" font-weight="700" >12/10/2026</text>
+<text x="514" y="825" font-size="16" fill="#10233f" font-weight="700" >09/11/2026</text>
 <rect x="30" y="863" width="600" height="61" rx="14" fill="#e9f5ff"/>
 <rect x="40" y="872" width="32" height="32" rx="9" fill="#159bea"/>
 <text x="56" y="896" font-size="23" fill="white" font-weight="800" text-anchor="middle">2</text>
 <g transform="translate(99 901) rotate(40) scale(0.46)"><path d="M0 0 C-28 -8 -34 -37 -26 -60 C0 -52 20 -23 0 0Z" fill="#159bea"/><path d="M0 0 L-22 -48" stroke="white" stroke-opacity=".6" stroke-width="1.5"/></g>
-<text x="120" y="888" font-size="21" fill="#10233f" font-weight="800" >Muse Spark 1.3</text>
+<text x="120" y="888" font-size="21" fill="#10233f" font-weight="800" >Muse Wonder</text>
 <text x="120" y="910" font-size="15" fill="#10233f" font-weight="400" >Razonamiento · herramientas</text>
 <use href="#calendar" x="486" y="874" width="19" height="19"/>
-<text x="514" y="890" font-size="16" fill="#10233f" font-weight="700" >02/09/2026</text>
+<text x="514" y="890" font-size="16" fill="#10233f" font-weight="700" >12/10/2026</text>
 <rect x="30" y="928" width="600" height="61" rx="14" fill="#e9f5ff"/>
 <rect x="40" y="937" width="32" height="32" rx="9" fill="#159bea"/>
 <text x="56" y="961" font-size="23" fill="white" font-weight="800" text-anchor="middle">3</text>
 <g transform="translate(99 966) rotate(40) scale(0.46)"><path d="M0 0 C-28 -8 -34 -37 -26 -60 C0 -52 20 -23 0 0Z" fill="#159bea"/><path d="M0 0 L-22 -48" stroke="white" stroke-opacity=".6" stroke-width="1.5"/></g>
-<text x="120" y="953" font-size="21" fill="#10233f" font-weight="800" >Muse Spark 1.3 Contributor</text>
+<text x="120" y="953" font-size="21" fill="#10233f" font-weight="800" >Muse Spark 1.3</text>
 <text x="120" y="975" font-size="15" fill="#10233f" font-weight="400" >Razonamiento · herramientas</text>
 <use href="#calendar" x="486" y="939" width="19" height="19"/>
 <text x="514" y="955" font-size="16" fill="#10233f" font-weight="700" >02/09/2026</text>
