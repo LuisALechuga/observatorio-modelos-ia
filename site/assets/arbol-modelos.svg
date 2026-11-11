@@ -16,7 +16,7 @@
 <rect x="1410" y="18" width="366" height="90" rx="24" fill="url(#pale)" stroke="#cad9ef"/>
 <use href="#calendar" x="1430" y="37" width="40" height="40"/>
 <text x="1480" y="44" font-size="18" fill="#10233f" font-weight="700" >Generado el</text>
-<text x="1480" y="74" font-size="18" fill="#10233f" font-weight="700" >10/11/2026 19:50 UTC</text>
+<text x="1480" y="74" font-size="18" fill="#10233f" font-weight="700" >11/11/2026 06:41 UTC</text>
 <rect x="177" y="94" width="1210" height="35" rx="17" fill="#e7f3ff"/>
 <text x="199" y="119" font-size="21" fill="#10233f" font-weight="700" >Fuente: Models.dev · Fechas declaradas · Selección provisional, sin validación independiente</text>
 <path d="M854 1034 C861 920 877 820 877 707 C878 593 876 509 900 418 C901 528 916 600 916 709 C915 836 934 945 944 1034Z" fill="url(#wood)" filter="url(#shadow)"/>
